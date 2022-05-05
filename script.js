@@ -14,3 +14,13 @@ function login() {
   });
 }
 login();
+
+function submitForm() {
+  const botaoSend = document.getElementById('submit-btn');
+  botaoSend.addEventListener('click', () => {
+    if (document.getElementById('agreement').checked === false) {
+      alert('Você precisa concodar com os termos!');
+    }
+  });
+}
+submitForm();
