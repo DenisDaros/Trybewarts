@@ -62,3 +62,22 @@ main {
   height: 500px;
   border: solid blue 2px;
 }
+
+#radios , #checkBox {
+  display: flex;
+  flex-direction: column;
+}
+
+#checkBox {
+  margin-left: 150px;
+}
+
+hr {
+  width: 500px;
+  height: 2px;
+  color: black;
+}
+
+#conteudoPrincipal {
+  display: flex;
+}
