@@ -46,3 +46,11 @@
 img {
   height: 100px;
 }
+main {
+    display: flex;
+}
+#evaluation-form {
+    display:flex;
+    width: 675px;
+    border: solid red 2px;
+}
