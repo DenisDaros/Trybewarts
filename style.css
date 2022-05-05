@@ -51,6 +51,11 @@ main {
 }
 #evaluation-form {
     display:flex;
+    flex-direction: column;
     width: 675px;
     border: solid red 2px;
+}
+#trybewarts-forms-logo {
+    height:500px;
+    border: solid blue 2px;
 }
