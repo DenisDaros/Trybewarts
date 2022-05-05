@@ -46,16 +46,19 @@
 img {
   height: 100px;
 }
+
 main {
     display: flex;
 }
+
 #evaluation-form {
-    display:flex;
-    flex-direction: column;
-    width: 675px;
-    border: solid red 2px;
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  border: solid red 2px;
 }
+
 #trybewarts-forms-logo {
-    height:500px;
-    border: solid blue 2px;
+  height: 500px;
+  border: solid blue 2px;
 }

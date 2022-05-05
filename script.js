@@ -3,7 +3,7 @@ const senhaLogin = document.getElementById('inputSenha');
 const botaoLogin = document.getElementById('botaoEntrar');
 
 function login() {
-  botaoLogin.addEventListener('click', function () {
+  botaoLogin.addEventListener('click', () => {
     if (
       emailLogin.value === 'tryber@teste.com' && senhaLogin.value === '123456'
     ) {
