@@ -90,11 +90,9 @@ hr {
   color: white;
   height: 50px;
 }
-<<<<<<< HEAD
 #label-rate {
   display: flex;
 }
-=======
 
 #submit-btn {
   background-color: rgb(78, 44, 131);
@@ -103,4 +101,3 @@ hr {
   cursor: pointer;
   height: 40px;
 }
->>>>>>> d62375d62dadea3e445b91919003fea4f020d031
