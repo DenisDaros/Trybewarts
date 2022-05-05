@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 100px;
+  padding: 10px;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#inputEmail , #inputSenha {
+  height: 35px;
+  align-self: center;
+  border-radius: 3px;
+  border: 1px solid white;
+  margin: 5px;
+}
+
+#botaoEntrar {
+  background-color: blueviolet;
+  align-self: center;
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#botaoEntrar:hover {
+  opacity: 0.8;
+}
+
+img {
+  height: 100px;
+}
