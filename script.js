@@ -14,11 +14,9 @@ function login() {
 login();
 
 function submitForm() {
-  const botaoSend = document.getElementById('submit-btn');
+  const botaoSend = document.getElementById('agreement');
   botaoSend.addEventListener('click', () => {
-    if (document.getElementById('agreement').checked === true) {
-      document.getElementById('submit-btn').disable = false;
-    }
+    document.getElementById('submit-btn').disabled = false;
   });
 }
 submitForm();
