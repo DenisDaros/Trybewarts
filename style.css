@@ -55,12 +55,10 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
-  
 }
 
 #trybewarts-forms-logo {
   height: 500px;
-  
 }
 
 #radios , #checkBox {
@@ -90,6 +88,7 @@ hr {
   color: white;
   height: 50px;
 }
+
 #label-rate {
   display: flex;
 }
